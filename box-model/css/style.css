@@ -2,25 +2,21 @@
 	width: 200px;
 	height: 200px;
 	background-color: lightgreen;
-    /* merupakan margin khusus */
-    /* Syarat margin auto kiri kanan nya harus auto */
-    /* ini akan membuat elementnya di tengah" dari parentnya karena parent bodynya*/
-    margin-left: auto;
-    margin-right: auto;
+    /* di saat nilainya satu maka akan mengatur ke empat penjuru */
+    /* di saat nilai nya dua yang pertama akan mengatur arah vertikal (Atas Bawah) lalu yang kedua akan mengatur arah horizontal (Kiri Kanan) */
+    /* di saat nilainya ada 3 maka cara bacanya yang pertama atasnya 50, kiri kanannya 100, lalu bawahnya 40 (untuk kanan dan kiri bisa juga menggunakan auto)*/
+    /* di saat nilainya ada 4 maka cara bacanya seperti arah jarum jam di mulai dari atas, kanan, bawah, kiri*/
+    margin: 50px 100px 40px 20px;
 }
 
 .dua {
 	width: 100px;
 	height: 100px;
 	background-color: lightskyblue;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .tiga {
 	width: 50px;
 	height: 50px;
 	background-color: violet;
-    margin-left: auto;
-    margin-right: auto;
 }
