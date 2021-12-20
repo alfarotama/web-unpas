@@ -2,20 +2,25 @@
 	width: 200px;
 	height: 200px;
 	background-color: lightgreen;
-    /* overlaping vertikal akan mengambil margin terbesar */
-    margin-bottom: 30px;
+    /* merupakan margin khusus */
+    /* Syarat margin auto kiri kanan nya harus auto */
+    /* ini akan membuat elementnya di tengah" dari parentnya karena parent bodynya*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dua {
 	width: 100px;
 	height: 100px;
 	background-color: lightskyblue;
-    /* margin Minus akan membuat kotaknya bergerak melawan arah, dan elemant dibawahnya pun akan ikut terbawa */
-    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tiga {
 	width: 50px;
 	height: 50px;
 	background-color: violet;
+    margin-left: auto;
+    margin-right: auto;
 }
