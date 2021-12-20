@@ -1,22 +1,9 @@
-.satu {
-	width: 200px;
-	height: 200px;
-	background-color: lightgreen;
-    /* di saat nilainya satu maka akan mengatur ke empat penjuru */
-    /* di saat nilai nya dua yang pertama akan mengatur arah vertikal (Atas Bawah) lalu yang kedua akan mengatur arah horizontal (Kiri Kanan) */
-    /* di saat nilainya ada 3 maka cara bacanya yang pertama atasnya 50, kiri kanannya 100, lalu bawahnya 40 (untuk kanan dan kiri bisa juga menggunakan auto)*/
-    /* di saat nilainya ada 4 maka cara bacanya seperti arah jarum jam di mulai dari atas, kanan, bawah, kiri*/
-    margin: 50px 100px 40px 20px;
-}
-
-.dua {
-	width: 100px;
-	height: 100px;
-	background-color: lightskyblue;
-}
-
-.tiga {
-	width: 50px;
-	height: 50px;
-	background-color: violet;
+/* Penggunaan Padding */
+div {
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    margin: 20px auto;
+    /* sama saja aturannya dengan margin hanya saja padding memberikan ruang di dalam border */
+    padding: 10px 20px 30px 40px;
 }
