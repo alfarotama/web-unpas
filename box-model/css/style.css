@@ -1,12 +1,12 @@
-/* Penggunaan Padding */
+/* Penggunaan Border */
 div {
+    /* cara melakukan penghitungan konten terhadap paddingnya adalah padding sisi kiri dan kanan di jumlah lalu di tambahkan width kanannya */
     width: 300px;
     height: 300px;
     background-color: coral;
     margin: 20px auto;
-    /* sama saja aturannya dengan margin hanya saja padding memberikan ruang di dalam border */
-    /* padding tidak bisa di beri nilai negatif & auto */
-    /* padding mempengaruhi ukuran element (box) */
-    /* hati" penggunaan padding harus menyesuaikan dengan lebar dari box nya */
     padding: 50px;
+    /* penggunaan border seperti namanya dia adalah outline dari sebuah content yang di balut padding */
+    /* border juga sama seperti padding dapat menimbulkan penambahan ukuran dan juga dapat di gunakan sebagaimana padding seperti top, right, bottom, left */
+    border: 5px solid black;
 }
