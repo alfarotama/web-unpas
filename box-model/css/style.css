@@ -12,6 +12,8 @@
 	width: 100px;
 	height: 100px;
 	background-color: lightskyblue;
+    /* Margin itu tidak saling menambahkan bila vertikal (overlaping margin) */
+    margin-top: 50px; 
 }
 
 .tiga {
