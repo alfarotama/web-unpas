@@ -1,20 +1,17 @@
-div {
-    display: inline-block;
-}
-
 .satu {
 	width: 200px;
 	height: 200px;
 	background-color: lightgreen;
-    margin-right: 30px;
+    /* overlaping vertikal akan mengambil margin terbesar */
+    margin-bottom: 30px;
 }
 
 .dua {
 	width: 100px;
 	height: 100px;
 	background-color: lightskyblue;
-    /* Overlaping Berhasil karena margin mereka tidak bertabrakan di horizontal */
-    margin-left: 20px;
+    /* margin Minus akan membuat kotaknya bergerak melawan arah, dan elemant dibawahnya pun akan ikut terbawa */
+    margin-top: -50px;
 }
 
 .tiga {
